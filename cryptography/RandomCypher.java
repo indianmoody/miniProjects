@@ -1,7 +1,5 @@
 // Author: Gaurav Bishnoi
 
-package tryArray;
-
 import java.util.Scanner;
 import java.util.Random;
 
