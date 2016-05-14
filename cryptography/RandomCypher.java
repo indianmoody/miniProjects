@@ -74,7 +74,6 @@ class cypher
 		}
 		
 		trial = new String(A);
-		//System.out.println(trial);
 	}
 	
 	public void unAct()
