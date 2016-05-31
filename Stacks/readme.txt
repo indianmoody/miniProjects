@@ -1,4 +1,5 @@
-This is am implementation of Stack data structure using an array. 
+"ArrayStack.java": This is am implementation of Stack data structure using an array. 
+"LinkedListStack.java": This is am implementation of Stack data structure using a Linked List.
 
 The implemented methods are:
 push(int x) : assigns x on top of Stack and increases the size
