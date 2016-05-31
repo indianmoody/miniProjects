@@ -1,30 +1,30 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class LinkedListStack{
 
      public static void main(String []args){
-        Stacks st = new Stacks();
-        int x = 5;
-        int y = 7;
-        int z = 11;
+         Stacks st = new Stacks();
+        Integer x = 5;
+        Integer y = 7;
+        Integer z = 11;
         System.out.println(st.size());
         st.push(x);
         st.push(y);
         st.push(z);
         System.out.println(st.size());
-        int d = st.pop();
+        Integer d = st.pop();
         System.out.println(st.size());
         st.pop();
         st.pop();
         System.out.println(st.size());
         st.pop();
         System.out.println("d = " + d);
+        
      }
 }
 
 class Stacks {
-    private int limit = 100;
-    private Integer[] arr = new Integer[limit];
+    LinkedList ll = new LinkedList();
     private int size = -1;
     
     public boolean isEmpty() {
@@ -37,7 +37,7 @@ class Stacks {
     
     public Integer peek() {
         if (!isEmpty()) {
-            return arr[size];
+            return (Integer) ll.getLast();
         }
         else {
             System.out.println("Stack is empty!");
@@ -45,17 +45,15 @@ class Stacks {
         }
     }
     
-    public void push (Integer data) throws IllegalStateException{
-        if (size() >= limit) throw new IllegalStateException("Stack is Full!");
-        arr[++size] = data;
+    public void push (Integer data) {
+        ll.addLast(data);
+        size++;
     }
     
     public Integer pop () {
         if (!isEmpty()) {
-            Integer temp = arr[size];
-            arr[size] = null;
             size--;
-            return temp;
+            return (Integer) ll.removeLast();
         }
         else {
             System.out.println("Stack is empty! Can't pop!");
