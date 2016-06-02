@@ -1,3 +1,5 @@
+// @Author: Gaurav Bishnoi
+
 import java.util.*;
 
 public class LinkedListStack{

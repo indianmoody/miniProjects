@@ -1,4 +1,4 @@
-// Author: Gaurav Bishnoi
+// @Author: Gaurav Bishnoi
 
 import java.util.Scanner;
 import java.util.Random;
