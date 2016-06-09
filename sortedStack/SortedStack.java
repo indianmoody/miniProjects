@@ -1,6 +1,6 @@
 // @author: Gaurav Bishnoi
 
-public class ex3 {
+public class SortedStack {
 
 	public static void main(String[] args) {
 		
