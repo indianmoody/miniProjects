@@ -1,1 +1,1 @@
-"sort()" method of "SortStack" class sorts a stack in increasing order from top to down. The stack used here is implementated from array, however any other other (or un-built in Java) stack can also be used.  
+"sort()" method of "SortStack" class sorts a stack in increasing order from top to down. The stack used here is implementated from array, however any other (or in-built in Java) stack can also be used.  
