@@ -5,10 +5,10 @@ preTraverse(): method to perform Pre-Order Traversal
 postTraversal(): method to perform Post-Order Traversal
 
 The Tree structure example is: 
-									a
-								  /   \
-								 b     e
-							   /  \
-							  c    d
-							      /  \
-								 f    g
+                                    a
+                                  /   \
+                                 b     e
+                               /  \
+                              c    d
+                                  /  \
+                                 f    g
