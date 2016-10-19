@@ -28,6 +28,10 @@ public class TestSinglyLinkedList{
         System.out.println(lst.size());*/
         lst.removeElement(y);
         System.out.println(lst.size());
+	lst.addLast(21);
+	lst.addLast(31);
+	lst.addLast(41);
+	lst.printList();
      }
 }
 
@@ -153,6 +157,14 @@ class SinglyLinkedList<E> {
 			System.out.println("Specified element was not found in the list!");
 		else
 			System.out.println("Specified element is removed from list!");
+	}
+	
+	public void printList() {
+		Node<E> n = head;
+		while (n != null) {
+			System.out.println(n.getElement());
+			n = n.next;
+		}
 	}
 }
 
